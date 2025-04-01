@@ -20,6 +20,8 @@ uv run pytest tests/test.py
 
 
 
+mkdocs gh-deploy
+
 
 mkdocs
 mkdocs-material
