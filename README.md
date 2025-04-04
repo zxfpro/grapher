@@ -1,29 +1,22 @@
-# grapher
-控制和转换graph格式的Underlying capability
-
 # AIworker_graph
 
-#### Description
+控制和转换graph格式的Underlying capability
 用来提供各种graph之间的转换能力
 
-#### Software Architecture
-Software architecture description
 
-#### Installation
+## 常规操作
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 导出环境
+```
+uv export --format requirements-txt > requirements.txt
+```
+### 更新文档
+```
+mkdocs serve # 预览
+mkdocs gh-deploy # 同步到github网站
+```
 
-#### 测试
-uv run pytest tests/test.py
-
-
-
-mkdocs gh-deploy
-
-
-mkdocs
-mkdocs-material
-mkdocstrings
-mkdocstrings-python
+### 运行测试并同步到测试服务
+```
+uv run pytest --html=/Users/zhaoxuefeng/GitHub/aiworker/html/llmada.html
+```
