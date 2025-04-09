@@ -29,3 +29,4 @@ nav:
   - Index: index.md
   - Tutorial: 
     - filetool: adapter.md
+    - canvas: canvas.md
