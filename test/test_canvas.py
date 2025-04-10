@@ -9,7 +9,6 @@ import pytest
 from grapherz.canvas.core import Canvas, Color
 
 
-
 def test_canvas():
     canva = Canvas(file_path='/Users/zhaoxuefeng/GitHub/obsidian/工作/实验室/模拟资质认证.canvas')
     canva.select_edges_by_text(key='处理')
